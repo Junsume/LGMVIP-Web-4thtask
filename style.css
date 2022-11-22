@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/53/95/77/1000_F_253957784_kXqsg08KHyaXnmKP5iB3C2zxOm8VPDLz.jpg);
+}
+
+h1{
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: xx-large;
+    font: weight 80px;
+    margin: 30px 150px;
+    background-color: rgba(71, 73, 71, 0.5);
+    border-radius: 2px;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 4px 1px rgba(85, 78, 78, 0.541);
+}
+
+.container {
+    max-width: 350px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(73, 68, 68);
+}
+
+#display {
+    text-align: right;
+    height: 50px;
+    line-height: 70px;
+    padding: 16px 7px;
+    font-size: 25px;
+    font-family: cursive;
+    background-color:antiquewhite;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid rgb(151, 147, 147);
+    border-left: 1px solid#999;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+    background-color:beige;
+}
+
+.buttons > div {
+    border-top: 3px solid rgba(153, 153, 153, 0.356);
+    border-right:3px solidrgba(153, 153, 153, 0.219);
+}
+
+.button {
+    border: 0.5px solid rgba(153, 153, 153, 0.185);
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#equal {
+    background-color: rgb(52, 71, 71);
+    color: white;
+}
+
+#equal:hover{
+    font-size:xx-large;
+    background-color: #999;
+}
+
+#clear:hover{
+    background-color: rgb(224, 111, 111);
+}
+
+.button:hover {
+    background-color: #5842429a;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.button:active{
+    opacity: 0.5;
+}
